@@ -58,6 +58,14 @@ Enables /ping for players to get their ping
 * Additional notes:  
   * It has an accompanying command  
   
+## compactShulkerBoxes
+Shulker boxes can be stored in shulker boxes. Required client side support     
+Please use at your own risk. OVer compacting can cause high amounts of lag and potentially corrupting the world  
+* Type: `boolean`  
+* Default value: `false`  
+* Required options: `true`, `false`  
+* Categories: `EXPERIMENTAL`, `FEATURE`, `EXTRAS`  
+  
 ## comparatorReadsClock
 Allows Comparators to read the daytime instead of the rotation of clocks in item frames  
 * Type: `boolean`  

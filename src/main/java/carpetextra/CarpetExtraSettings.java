@@ -223,6 +223,13 @@ public class CarpetExtraSettings
     )
     public static boolean y0DragonEggBedrockBreaking = false;
     
+    @Rule(
+            desc = "Shulker boxes can be stored in shulker boxes. Required client side support",
+            extra = "Please use at your own risk. OVer compacting can cause high amounts of lag and potentially corrupting the world",
+            category = {EXPERIMENTAL, FEATURE, EXTRA}
+    )
+    public static boolean compactShulkerBoxes = false;
+    
     // Implemented in 1.15 - doInsomnia
     /*@Rule(desc = "Disable phantom spawning", category = {CREATIVE, EXTRA})
     public static boolean disablePhantomSpawning = false;*/

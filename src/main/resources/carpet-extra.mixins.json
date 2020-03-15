@@ -54,7 +54,8 @@
     "JungleTempleFeature_creeperMixin",
 
     "ScaffoldingBlock_scaffoldingDistanceMixin",
-    "ScaffoldingItem_scaffoldingDistanceMixin"
+    "ScaffoldingItem_scaffoldingDistanceMixin",
+    "ShulkerBoxSlotMixin"
   ],
   "client": [
     "MinecraftClient_noopMixin"
